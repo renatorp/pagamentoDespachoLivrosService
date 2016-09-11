@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests" time="0.022" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/renatorp/Documents/dev/maven/apache-maven-3.3.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.19.0-68-generic"/>
+    <property name="user.home" value="/home/renatorp"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="renatorp"/>
+    <property name="java.class.path" value="/home/renatorp/Documents/dev/maven/apache-maven-3.3.3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/renatorp/Documents/dev/maven/apache-maven-3.3.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="initializationError" classname="pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests" time="0.022">
+    <error message="Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+	at org.springframework.util.Assert.state(Assert.java:392)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses(SpringBootTestContextBootstrapper.java:156)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.processMergedContextConfiguration(SpringBootTestContextBootstrapper.java:116)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:409)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration(AbstractTestContextBootstrapper.java:323)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:277)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildTestContext(AbstractTestContextBootstrapper.java:112)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildTestContext(SpringBootTestContextBootstrapper.java:74)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:120)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:105)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTestContextManager(SpringJUnit4ClassRunner.java:152)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:143)
+	at org.springframework.test.context.junit4.SpringRunner.<init>(SpringRunner.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+    <system-out><![CDATA[23:29:09.327 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests]
+23:29:09.429 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:29:09.575 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:29:09.669 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:29:09.797 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests], using SpringBootContextLoader
+23:29:09.830 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests]: class path resource [pdd/pucminas/br/PagamentoDespachoLivrosServiceApplicationTests-context.xml] does not exist
+23:29:09.831 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests]: class path resource [pdd/pucminas/br/PagamentoDespachoLivrosServiceApplicationTestsContext.groovy] does not exist
+23:29:09.832 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:29:09.834 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests]: PagamentoDespachoLivrosServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:29:10.114 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests]
+23:29:10.385 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+23:29:10.388 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+23:29:10.389 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+23:29:10.447 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [pdd/pucminas/br/] to resources [URL [file:/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas/br/], URL [file:/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/pucminas/br/]]
+23:29:10.448 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas/br]
+23:29:10.449 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas/br] for files matching pattern [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas/br/*.class]
+23:29:10.463 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/pucminas/br]
+23:29:10.464 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/pucminas/br] for files matching pattern [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/pucminas/br/*.class]
+23:29:10.465 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:pdd/pucminas/br/*.class] to resources [file [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas/br/PagamentoDespachoLivrosServiceApplicationTests.class]]
+23:29:10.506 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [pdd/pucminas/] to resources [URL [file:/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas/], URL [file:/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/pucminas/]]
+23:29:10.507 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas]
+23:29:10.507 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas] for files matching pattern [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas/*.class]
+23:29:10.508 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/pucminas]
+23:29:10.509 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/pucminas] for files matching pattern [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/pucminas/*.class]
+23:29:10.510 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:pdd/pucminas/*.class] to resources []
+23:29:10.514 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [pdd/] to resources [URL [file:/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/], URL [file:/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/]]
+23:29:10.516 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd]
+23:29:10.516 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd] for files matching pattern [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/*.class]
+23:29:10.518 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd]
+23:29:10.518 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd] for files matching pattern [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/*.class]
+23:29:10.521 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:pdd/*.class] to resources []
+23:29:10.550 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests]
+23:29:10.550 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:29:10.551 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:29:10.552 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:29:10.553 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests], using SpringBootContextLoader
+23:29:10.555 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests]: class path resource [pdd/pucminas/br/PagamentoDespachoLivrosServiceApplicationTests-context.xml] does not exist
+23:29:10.555 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests]: class path resource [pdd/pucminas/br/PagamentoDespachoLivrosServiceApplicationTestsContext.groovy] does not exist
+23:29:10.556 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:29:10.556 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests]: PagamentoDespachoLivrosServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:29:10.567 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [pdd.pucminas.br.PagamentoDespachoLivrosServiceApplicationTests]
+23:29:10.569 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+23:29:10.569 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+23:29:10.571 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+23:29:10.574 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [pdd/pucminas/br/] to resources [URL [file:/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas/br/], URL [file:/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/pucminas/br/]]
+23:29:10.575 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas/br]
+23:29:10.575 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas/br] for files matching pattern [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas/br/*.class]
+23:29:10.576 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/pucminas/br]
+23:29:10.577 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/pucminas/br] for files matching pattern [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/pucminas/br/*.class]
+23:29:10.577 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:pdd/pucminas/br/*.class] to resources [file [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas/br/PagamentoDespachoLivrosServiceApplicationTests.class]]
+23:29:10.579 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [pdd/pucminas/] to resources [URL [file:/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas/], URL [file:/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/pucminas/]]
+23:29:10.579 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas]
+23:29:10.580 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas] for files matching pattern [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/pucminas/*.class]
+23:29:10.582 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/pucminas]
+23:29:10.583 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/pucminas] for files matching pattern [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/pucminas/*.class]
+23:29:10.583 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:pdd/pucminas/*.class] to resources []
+23:29:10.585 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [pdd/] to resources [URL [file:/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/], URL [file:/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/]]
+23:29:10.586 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd]
+23:29:10.587 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd] for files matching pattern [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/test-classes/pdd/*.class]
+23:29:10.588 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd]
+23:29:10.589 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd] for files matching pattern [/home/renatorp/Documents/dev/projetos/livraria-virtual-microservices/pagamentoDespachoLivrosService/target/classes/pdd/*.class]
+23:29:10.589 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:pdd/*.class] to resources []
+]]></system-out>
+  </testcase>
+</testsuite>

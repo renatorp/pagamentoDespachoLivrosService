@@ -36,9 +36,9 @@ public class PagamentoDespachoLivrosServiceApplication {
 	@ResponseBody
 	public Pagamento solicitarPagamento(@RequestParam String idCarrinhoCompras) {
 		
-		if (!isAuthenticated()) {
-			throw new UnsupportedOperationException("Usuário não autenticado");
-		}
+		//if (!isAuthenticated()) {
+		//	throw new UnsupportedOperationException("Usuário não autenticado");
+		//}
 
 		CarrinhoCompras carrinho = restTemplate.getForObject("http://localhost:5001/api/carrinhos/{id}", CarrinhoCompras.class, idCarrinhoCompras);
 	    
@@ -77,9 +77,9 @@ public class PagamentoDespachoLivrosServiceApplication {
 	@ResponseBody
 	public SolicitacaoDespacho solicitarDespacho(@RequestBody SolicitacaoDespacho solicitacaoDespacho) {
 		
-		if (!isAuthenticated()) {
-			throw new UnsupportedOperationException("Usuário não autenticado");
-		}
+		//if (!isAuthenticated()) {
+		//	throw new UnsupportedOperationException("Usuário não autenticado");
+		//}
 		
 		if (solicitacaoDespacho != null && solicitacaoDespacho.getLivro() != null) {
 			
